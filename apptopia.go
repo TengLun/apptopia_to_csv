@@ -10,6 +10,8 @@ import (
 	"strings"
 )
 
+// here is my comment. but maybe I need to add this thing to make it work right
+// balls
 func ParsePublisherDataFromArray(records []string) ([]Publisher, error) {
 
 	ps := make([]Publisher, 0)
